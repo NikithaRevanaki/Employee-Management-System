@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Log In | GLOBALSOLUTIONS</title>
+	<link rel="stylesheet" type="text/css" href="stylelogin.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body style="background-color: lightblue;">
+	<header>
+		<nav>
+			<h1>GLOBAL SOLUTIONS</h1>
+			<ul id="navli">
+				<li><a class="homeblack" href="index.html">HOME</a></li>
+				<li><a class="homeblack" href="elogin.html">Employee Login</a></li>
+				<li><a class="homered" href="alogin.html">Admin Login</a></li>
+				
+			</ul>
+		</nav>	</header>
+	<div class="divider"></div>
+
+	<div class="loginbox">
+    <img src="assets/admin.png" class="avatar">
+        <h1>Login Here</h1>
+        <form action="process/aprocess.php" method="POST">
+            <p>Email</p>
+            <input type="text" name="mailuid" placeholder="Enter Email Address" required="required">
+            <p>Password</p>
+            <input type="password" name="pwd" placeholder="Enter Password" required="required">
+            <input type="submit" name="login-submit" value="Login">
+           
+        </form>
+	</div>
+	<div class = bottom>
+		<h3>Get in Touch</h3>
+		<h2 class="copyright"> © Global Solutions <br> <span class="tagline"> 'Expertise. Experience. Excellent.'</span> </h2>
+		<a class ="footer-link" href="mailto:globalsolution@gmail.com">Mail Us</a>
+		<a class="footer-link" target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=GlobalSolutions">LinkedIn</a>
+	</div>
+        
+    </div>
+</body>
+</html>
